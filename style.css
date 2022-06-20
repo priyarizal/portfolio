@@ -1,0 +1,39 @@
+*{
+    background-color:pink;
+    margin:2px;
+    padding: 3px;
+}
+   
+
+header {
+    position:relative;
+    display:grid;
+    padding: 20px;
+    margin: 5px;
+    z-index: 2;  
+}
+
+ul {
+    float:right;
+    list-style-type: none;
+    margin-top: -50px;
+    transition: 0.6 ease-in-out;
+}
+
+ul li {
+    display: inline-block;
+}
+
+ul li a{
+    color:rgb(45, 103, 212);
+    padding: 5px 20px;
+    text-decoration: none;
+    border: 1px solid #fff;
+}
+ 
+a:hover{
+    background-color: #8FBC8F;
+    color: #FA8072;
+
+}
+
