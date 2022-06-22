@@ -2,8 +2,9 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <title>Portfolio</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <title>Priya's Portfolio</title>
     <link rel="stylesheet" href="assets/style.css">
 </head>
 
@@ -12,50 +13,60 @@
         <header>
             <h1 class="header"><strong>Priyadarshini Rizal</strong></h1>
             <h2 class="header"> Full Stack Developer</h2>
-            <div class="button"> About me</div>
+            <div class="button"> <a href="#aboutme">About me</a></div>
         </header>
 
         <div class="menubar">
             <nav>
                 <ul>
-                    <li><a href="/Contactinfo/">Contact Info</a></li>|
+                    <li><a href="#mywork"> My work</a></li>
+                    <li><a href="#contactme">Contact Me</a></li>|
                     <li><a href="/Resume/"> Resume </a></li>|
                     <li><a href="/Github/">Github</a></li>
                 </ul>
             </nav>
         </div>
-        <section class="info"> 
-            <p> 
-                Hello! My name is Priyadarshini Rizal and I am currently learning how to be a full stack developer. I recently decided I wanted to learn software development because I felt stuck as I realized I did not want to go to grad school. So far, I am enjoying learning how to develop websites. I really love CSS so far. Follow along to watch me grow ♡ 
+        <section id="aboutme" class="info">
+            <p>
+                Hello! My name is Priyadarshini Rizal and I am currently learning how to be a full stack developer. I
+                recently decided I wanted to learn software development because I felt stuck as I realized I did not
+                want to go to grad school. So far, I am enjoying learning how to develop websites. I really love CSS so
+                far. Follow along to watch me grow ♡
             </p>
             <div class="image">
-                <!-- <img class="photo" src=" " alt="Priya's photo"> -->
+                <img class="photo" src="./assets/img/Edit.jpg" alt="Priya's photo">
 
             </div>
         </section>
     </div>
-    <section class="box2">
-        <div>
-            <h2 class="projects"> Projects I will be doing throughout my bootcamp </h2>
-            <div class="project1">
-                <div> Project1</div>
-            </div>
-            <div class="project2"> 
-                 <div> Project2</div>   
-            </div>
-
-            <div project="project3">
-                <div> Project3</div>
-            </div>
-
-                
-            </p>
+    <section>
+        <div id="mywork" class="box2">
+            <h2 class="projects"> who did this? </h2>
+            <a href="https://google.com"><img
+                    src="https://thumbs.dreamstime.com/b/blue-orange-natural-grainy-gradient-overlay-retro-s-grainy-background-abstract-vibrant-texture-wallpaper-trendy-psychedelic-blurry-219796081.jpg"
+                    width="400px" height="400px"></a>
+        </div>
+        <div class="box2">
+            <h2 class="projects"> she did that </h2>
+            <a href="https://google.com"><img
+                    src="https://www.xmple.com/wallpaper/orange-blue-gradient-linear-1920x1080-c2-add8e6-fa9842-a-120-f-14.svg"
+                    height="400px" width="400px"></a>
+        </div>
+        <div class="box2">
+            <h2 class="projects"> you did this?</h2>
+            <a href="https://google.com"><img
+                    src="https://www.xmple.com/wallpaper/linear-orange-gradient-blue-1920x1080-c2-ff8c00-00bfff-a-45-f-14.svg"
+                    height="400px" width="400px"></a>
         </div>
 
-
-
     </section>
-    <footer>
+    <footer id="contactme">
+        <a href="mailto:priya.rizal2@gmail.com" class="socials">
+            <svg xmlns="http://www.w3.org/2000/svg" fill=#FFFFFF width="30" height="28" viewBox="0 0 24 24">
+                <path
+                    d="M12 .02c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm6.99 6.98l-6.99 5.666-6.991-5.666h13.981zm.01 10h-14v-8.505l7 5.673 7-5.672v8.504z" />
+            </svg>
+        </a>
         <a href="http://github.com/priyarizal" class="socials">
             <svg xmlns="http://www.w3.org/2000/svg" fill="#FFFFFF" width="30" height="28" viewBox="0 0 24 24">
                 <path

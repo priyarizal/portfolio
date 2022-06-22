@@ -1,5 +1,4 @@
 
-  
 section { 
     height: 500px;
     border: solid rgb(38, 4, 4) 1px;
@@ -64,9 +63,19 @@ a:hover{
 
 }
 
+section{
+    display: flex;
+
+}
 .box2{
     background-color: skyblue;
-
+    display: flex;
+    margin: 15px;
+    border: 2px dotted white;
+    margin-top: 0px;
+    z-index: 1;
+    flex-wrap:wrap ;
+    justify-content: center;
 }
 
 footer{
@@ -82,7 +91,7 @@ footer{
 
 .info {
     display:flex;
-    font-size: large;
+    font-size: x-large 24vmin;
     margin-left: 20px;
     margin-right: 600px;
     border: none;
@@ -98,44 +107,34 @@ footer{
     border:none;  
 }
 
-.project1{
-        display: grid;
-      gap: 10px;
-        grid-auto-rows:100px;
-        border: dashed;
-}
 
-.project2{
-    display:grid;
-    gap:10px;
-    grid-auto-rows: 100px;
-    border:dashed;
-}
-
-.project3{
-    display:grid;
-    gap:10px;
-    grid-auto-rows: 100px;
-}
-
-
-
-/* .photo{ */
-    /* width:200px;
+.photo{
+    width:100px;
     border-radius: 100px;
-} */
-/* image class {
-    height:
-    margin:
+    height: 150px; 
+    margin: 20px;
 }
 
-.projects{
+@media screen and (max-width:992) { 
+    body {
+        width:100%;
+    }
+
+    body{
+        flex:0 0 33, 333%;
+        max-width: 33.333%;
+    } 
+}
 
 
-
-
-
-
-
+@media screen and (min-width:768px) {
+    body {
+        flex: 0 0 100%;
+        max-width: 100%
+    }
+    body:last-child {
+        flex-grow:1;
+    }
+}
 
 
